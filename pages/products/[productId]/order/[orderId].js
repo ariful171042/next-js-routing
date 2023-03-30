@@ -2,11 +2,13 @@ import { useRouter } from "next/router";
 
 export default function OrderDetals() {
   const {
-    query: { orderId },
+    query: { orderId, productId },
   } = useRouter();
   return (
-    <div className="">
-      <h1>OrderDetals:{orderId}</h1>
+    <div>
+      <h1>
+        Product {productId} OrderId {orderId}
+      </h1>
     </div>
   );
 }
