@@ -21,5 +21,11 @@
       "title": "Bebi",
       "price": "200$"
     }
+  ],
+  "fremworks": [
+    { "id": 1, "title": "tailiwnd CSS", "core": "CSS" },
+    { "id": 2, "title": "next.js", "core": "React.js" },
+    { "id": 3, "title": "Vue.js", "core": "Javascript" },
+    { "id": 4, "title": "Boostrap", "core": "CSs" }
   ]
 }
