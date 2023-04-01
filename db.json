@@ -27,5 +27,22 @@
     { "id": 2, "title": "next.js", "core": "React.js" },
     { "id": 3, "title": "Vue.js", "core": "Javascript" },
     { "id": 4, "title": "Boostrap", "core": "CSs" }
+  ],
+  "libraries": [
+    {
+      "id": 1,
+      "title": "React.js",
+      "core": "JavaScript"
+    },
+    {
+      "id": 2,
+      "title": "Gsap",
+      "core": "JavaScript"
+    },
+    {
+      "id": 3,
+      "title": "Ajaxs",
+      "core": "JavaScript"
+    }
   ]
 }
