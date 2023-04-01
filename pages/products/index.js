@@ -1,14 +1,16 @@
-export default function Products() {
+import Link from "next/link";
+
+export default function Products({ productId = 55 }) {
   return (
     <div>
-      <h1>Product List</h1>
-      <ul>
-        <li>Product 1</li>
-        <li>Product 2</li>
-        <li>Product 3</li>
-        <li>Product 4</li>
-      </ul>
-      ;
+      <Link href="/">Home</Link>
+      <Link href="/products/1">Product 1</Link>
+      <Link href="/products/2">Product 2</Link>
+      <Link href="/products/3">Product 3</Link>
+      <Link href="/products/4">Product 4</Link>
+      <Link href={`/products/${productId}`} replace>
+        Product {productId}
+      </Link>
     </div>
   );
 }
