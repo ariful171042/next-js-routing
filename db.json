@@ -44,5 +44,27 @@
       "title": "Ajaxs",
       "core": "JavaScript"
     }
+  ],
+  "eid-gifts": [
+    {
+      "id": 1,
+      "title": "panjabi",
+      "price": "2500tk"
+    },
+    {
+      "id": 2,
+      "title": "Shari",
+      "price": "1500tk"
+    },
+    {
+      "id": 3,
+      "title": "Tupi",
+      "price": "500tk"
+    },
+    {
+      "id": 4,
+      "title": "Perfume",
+      "price": "300tk"
+    }
   ]
 }
