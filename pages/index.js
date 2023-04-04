@@ -1,25 +1,9 @@
 import Link from "next/link";
 
-const Home = () => {
-  return (
-    <div>
-      <h1>Home page</h1>
+import React from "react";
 
-      <ul>
-        <li>
-          <Link href="/products">Product</Link>
-        </li>
-        <li>
-          <Link href="/about">About</Link>
-        </li>
-        <li>
-          <Link href="/profile">Profile</Link>
-        </li>
-        <li>
-          <Link href="/products">Product</Link>
-        </li>
-      </ul>
-    </div>
-  );
+const index = () => {
+  return <div>index</div>;
 };
-export default Home;
+
+export default index;
